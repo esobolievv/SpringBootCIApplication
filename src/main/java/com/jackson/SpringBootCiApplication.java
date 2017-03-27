@@ -18,6 +18,6 @@ public class SpringBootCiApplication {
     @RequestMapping(value = "/{name}")
     @ResponseBody
     public String basePage(@PathVariable("name") String name) {
-        return "You are is: " + name;
+        return "You are: " + name;
     }
 }
